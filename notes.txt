@@ -1,0 +1,11 @@
+- mobx-like reactivity
+- nice cli, huge combain (tests, linters, coverage, everything)
+- data (firstName, lastName), computed (fullName) + get/set, methods, watch*
+
+- "a better angular with virtual dom, mobx-style reactivity model and scoped styles on components out ouf the box"
+
+- todoAppContaienr *router done-undone-all
+       input
+       list
+          item
+
