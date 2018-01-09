@@ -29,9 +29,9 @@ export default new Router({
         const { type = 'all' } = params;
 
         if (serializedTodos) {
-          return { todos: JSON.parse(serializedTodos), type };
+          return { initialTodos: JSON.parse(serializedTodos), type };
         }
-        return { todos: [], type };
+        return { initialTodos: [], type };
       },
     },
   ],
